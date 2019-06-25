@@ -24,6 +24,10 @@ body{
     width: 100%; /* La page occupe toute la largeur */
 }
 
+section {
+    width: 916px;
+}
+
 
 picture {
     display : flex;
