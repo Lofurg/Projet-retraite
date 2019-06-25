@@ -1,1 +1,40 @@
+h1 {
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+#texte {
+    display:flex;
+    flex-direction: column;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+#texte :first-child{
+    display:flex;
+    float: left;
+    width: 30%;
+    order:-2;
+    font-size: large;
+    margin-right: 70px;
+}
+
+#texte :nth-child(2) {
+    display: flex;
+    float: right;
+    font-size: large;
+    width: 30%;
+    align-self: flex-start;
+}
+
+#mail {
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    order:-1;
+
+}
