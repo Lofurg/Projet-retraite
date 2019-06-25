@@ -1,42 +1,17 @@
 h1 {
-    color: #ff6811; /* Couleur du texte */
+    color: #510e54; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
-    font-size: xx-large; /* Le texte est grossi en XXL */
+    font-size: x-large; /* Le texte est grossi en XL */
 }
 
-#thematique h1 {
-    width: 100%; /* Le titre occupe toute la largeur */ 
-    margin-bottom: 10px; /* Marge basse */
-}
-
-#menu {
-    display: flex;
+#texte {
+    display: flex; 
     flex-direction: column;
-    justify-content: flex-start;
-    height: 70px;
-    width:100%;
+    text-align: left;
+    font-size: large;
 }
 
-/*#test {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: nowrap;
-    height: 70px;
-    width:100%;
-}*/
-h2 {
-    display:flex;
-    color: #00559b;
-    flex-flow: nowrap;
-    font-size: x-large;
-}
-
-#controles input{
-    display:flex;
-    padding: 5px 8px;
-    border-radius: 100%;
-    background-color: #00a9bd;
-    color: black;
-    border: 2px solid #00a9bd;
+#texte p{
+    margin: 2px;
+    text-align: justify;
 }

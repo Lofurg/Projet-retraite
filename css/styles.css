@@ -33,6 +33,10 @@ picture {
     display : flex;
 }
 
+article{
+    font-size: large;
+    text-align: justify;
+}
 
 
 nav input {

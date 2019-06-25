@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+    <head><!-- affichage du haut de page générique -->
         <title>calculateur de retraite</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@ and open the template in the editor.
                 </ul>
             </nav>
         </header>
-        <section id="calcul">
+        <section id="calcul"><!-- affichage du menu de saisi -->
             <h1>Calculateur :</h1>
             <form id="form_calculateur" name="form_calculateur">
                 <fieldset id="resultats">
@@ -44,7 +44,7 @@ and open the template in the editor.
                     <div><label for="num_nbtrim">Nombre de trimestre :</label> <input type="number" name="num_nbtrim" id="num_nbtrim" min="0" max="9999" value="0"></div>
                     <h2 id="affiche"></h2>
                 </fieldset> 
-                
+                <!-- affichage du bouton qui sera utilisé grace à js -->
                 <div id="bouton"><input type="button" id="btn_envoyer" name="btn_envoyer" value="Calculer votre retraite"></div>
         </section>
     </body>
