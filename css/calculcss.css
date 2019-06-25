@@ -2,7 +2,11 @@
     Created on : 25 juin 2019, 14:41:07
     Author     : guillaume
 */
-
+#btn_envoyer {
+    width: 150px;
+    height: 30px;
+    margin: 5px 0px;
+}
 
 #calcul {
     margin: 10px 0px 25px 0px;
@@ -14,10 +18,14 @@
     font-weight: bold;
     font-size: x-large;
     color: #510e54;
-    
+
 }
 
-#calcul div {
+#resultats div {
+    display: flex;
+    font-weight: bold;
+    margin: 20px;
+    color: #000000;
     margin: 10px;
 }
 
@@ -26,24 +34,17 @@ h1 {
     text-align: left;
     font-size: xx-large;
     color: #510e54;
-  
+
 }
 
 #resultats {
     display: flex;
     width: 700px;
-    
+
 }
 
 #resultats input {
     flex: 1;
     margin: 2px;
-}
-
-div {
-    display: flex;
-    font-weight: bold;
-    margin: 20px;
-    color: #000000;
 }
 
