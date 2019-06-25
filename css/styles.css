@@ -38,3 +38,31 @@ nav ul li a {
 nav ul li:hover {
     background-color:#00a9bd; /* Couleur du fond au passage de la souris */
 }
+
+h1 {
+    color: #ff6811; /* Couleur du texte */
+    text-align: center; /* Le texte est centré */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+#thematique h1 {
+    width: 100%; /* Le titre occupe toute la largeur */ 
+    margin-bottom: 10px; /* Marge basse */
+}
+
+#menu input {
+    display:flex;
+    flex-direction: row;
+}
+
+h2 {
+    display:flex;
+    color: #00559b;
+    flex-direction: row;
+    text-align: left;
+    font-size: x-large;
+}
+
+#controles {
+    display:flex;
+}
