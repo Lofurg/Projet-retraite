@@ -1,8 +1,8 @@
 * {
-       font-family: 'Calibri Light'; /*Police par défaut*/
-       margin: 0;
-       padding: 0;
-       text-decoration: none;
+    font-family: 'Calibri Light'; /*Police par défaut*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 /* Définition de la police "Calibri Light" */
@@ -64,5 +64,15 @@ nav ul li:hover {
 }
 
 
-
+@media screen and (max-width:768px) {
+    body {
+        font-size: large;
+    }
+    header, section {
+        width: auto; /* Suppression de la largeur définie */
+    }
+    header img {
+        width: 100%; /* Bannière sur toute la largeur */
+    }
+}
 
