@@ -25,16 +25,14 @@ and open the template in the editor.
                 </ul>
             </nav>
         </header>
-        <section id="contact">
+        <section id="calcul">
             <h1>Calculateur :</h1>
                 <form id="form_calculateur" name="form_calculateur">
             <fieldset id="resultats">
-                <legend>Vos résultats : </legend>
-                    <p><label for="num_ancien">Nombre d'années d'ancienneté :</label> <input type="number" name="num_ancien" id="num_ancien" min="0" max="50" value="0"></p>
-                    <p><label for="num_s20">Nombre de S 20 vendus :</label> <input type="number" name="num_s20" id="num_s20" min="0" max="9999" value="0"></p>
-                    <p><label for="num_xs">Nombre de X-Spirit vendus :</label> <input type="number" name="num_xs" id="num_xs" min="0" max="9999" value="0"></p>
-                    <p><label for="num_multi">Nombre de Multitec vendus :</label> <input type="number" name="num_multi" id="num_multi" min="0" max="9999" value="0"></p>
-                    <p><label for="num_km">Distance parcourue :</label> <input type="number" name="num_km" id="num_km" min="0" max="9999" value="0"></p>
+                <legend>Vos informations : </legend>
+                    <p><label for="num_annees">Année de naissance :</label> <input type="number" name="num_annees" id="num_annees" min="1900"  value="1900"></p>
+                    <p><label for="num_moyenne">Moyenne de vos meilleurs années :</label> <input type="number" name="num_moyenne" id="num_moyenne" min="0" value="0"></p>
+                    <p><label for="num_nbtrim">Nombre de trimestre :</label> <input type="number" name="num_nbtrim" id="num_nbtrim" min="0" max="9999" value="0"></p>
             </fieldset> 
         </section>
     </body>
