@@ -29,6 +29,15 @@ h1 {
     align-self: flex-start;
 }
 
+#corps {
+    display: none;
+    margin-top: 20px;
+    
+}
+
+#corps legend {
+    font-weight: bold;
+}
 #mail {
     display:flex;
     justify-content: center;
@@ -36,5 +45,11 @@ h1 {
     width: 50px;
     margin-right: 10px;
     order:-1;
+}
 
+#envoi {
+    padding: 10px;
+}
+#mail, #envoi:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
