@@ -20,6 +20,9 @@ function retraite() {
     } else {
         trimdemande = trimdemande - nbtrim;
     }
+    if(trimdemande >=20){
+        trimdemande = 20;
+    }
     let moyenne = recupVal("#num_moyenne");
     let retraite = moyenne * (cote - (decote * trimdemande));
     window.document.querySelector("#affiche").innerHTML =
@@ -48,6 +51,9 @@ function trim() {
         }
         if (annees >= 1973) {
             return 172;
+        }
+        if(annees <= 1951){
+            return 163;
         }
     }
 }
