@@ -1,9 +1,40 @@
 * {
        font-family: 'Calibri Light'; /*Police par défaut*/
+       margin: 0;
+       padding: 0;
+       text-decoration: none;
 }
 
-/* Définition de la police "Montserrat" */
+/* Définition de la police "Calibri Light" */
 @font-face{ 
     font-family: "Calibri Light";
     src: url('polices/calibril.ttf') format("truetype");
+}
+
+nav input {
+    display: none;
+}
+
+nav ul {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont mis côte à côte */
+    justify-content: space-between; /* Les éléments sont répartis équitablement */
+    background-color: black; /* Couleur du fond */
+}
+
+nav ul li {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    list-style-type: none; /* Cette liste n'a pas de puce */
+    font-size: x-large; /* Le texte est grossi en XL */
+    flex-grow: 1; /* L'espace occupé est élargi */
+}
+
+nav ul li a {
+    padding: 10px; /* Marge intérieure */
+    color: white; /* Couleur du texte */
+}
+
+nav ul li:hover {
+    background-color:#00a9bd; /* Couleur du fond au passage de la souris */
 }
